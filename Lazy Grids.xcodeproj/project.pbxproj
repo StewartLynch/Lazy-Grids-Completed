@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB4B6C6D25CF04270025E204 /* Lazy_GridsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B6C6C25CF04270025E204 /* Lazy_GridsApp.swift */; };
+		BB4B6C6F25CF04270025E204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B6C6E25CF04270025E204 /* ContentView.swift */; };
+		BB4B6C7125CF04280025E204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4B6C7025CF04280025E204 /* Assets.xcassets */; };
+		BB4B6C7425CF04280025E204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4B6C7325CF04280025E204 /* Preview Assets.xcassets */; };
+		BB4B6C7D25CF05990025E204 /* Flexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B6C7C25CF05990025E204 /* Flexible.swift */; };
+		BB4B6C8025CF05A50025E204 /* Fixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B6C7F25CF05A50025E204 /* Fixed.swift */; };
+		BB4B6C8325CF05B10025E204 /* Adaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B6C8225CF05B10025E204 /* Adaptive.swift */; };
+		BB4B6C8625CF0DD60025E204 /* EmbedInNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B6C8525CF0DD60025E204 /* EmbedInNavigation.swift */; };
+		BB4CAB1625CF7100009D908D /* HGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4CAB1525CF7100009D908D /* HGrid.swift */; };
+		BBF4FDD225CF928F004E24BB /* Pinned.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF4FDD125CF928F004E24BB /* Pinned.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB4B6C6925CF04270025E204 /* Lazy Grids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lazy Grids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4B6C6C25CF04270025E204 /* Lazy_GridsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_GridsApp.swift; sourceTree = "<group>"; };
+		BB4B6C6E25CF04270025E204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB4B6C7025CF04280025E204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB4B6C7325CF04280025E204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB4B6C7525CF04280025E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4B6C7C25CF05990025E204 /* Flexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flexible.swift; sourceTree = "<group>"; };
+		BB4B6C7F25CF05A50025E204 /* Fixed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixed.swift; sourceTree = "<group>"; };
+		BB4B6C8225CF05B10025E204 /* Adaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adaptive.swift; sourceTree = "<group>"; };
+		BB4B6C8525CF0DD60025E204 /* EmbedInNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedInNavigation.swift; sourceTree = "<group>"; };
+		BB4CAB1525CF7100009D908D /* HGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGrid.swift; sourceTree = "<group>"; };
+		BBF4FDD125CF928F004E24BB /* Pinned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinned.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB4B6C6625CF04270025E204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB4B6C6025CF04270025E204 = {
+			isa = PBXGroup;
+			children = (
+				BB4B6C6B25CF04270025E204 /* Lazy Grids */,
+				BB4B6C6A25CF04270025E204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB4B6C6A25CF04270025E204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4B6C6925CF04270025E204 /* Lazy Grids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB4B6C6B25CF04270025E204 /* Lazy Grids */ = {
+			isa = PBXGroup;
+			children = (
+				BB4B6C6C25CF04270025E204 /* Lazy_GridsApp.swift */,
+				BB4B6C6E25CF04270025E204 /* ContentView.swift */,
+				BB4B6C7C25CF05990025E204 /* Flexible.swift */,
+				BB4B6C7F25CF05A50025E204 /* Fixed.swift */,
+				BB4B6C8225CF05B10025E204 /* Adaptive.swift */,
+				BBF4FDD125CF928F004E24BB /* Pinned.swift */,
+				BB4CAB1525CF7100009D908D /* HGrid.swift */,
+				BB4B6C8525CF0DD60025E204 /* EmbedInNavigation.swift */,
+				BB4B6C7025CF04280025E204 /* Assets.xcassets */,
+				BB4B6C7525CF04280025E204 /* Info.plist */,
+				BB4B6C7225CF04280025E204 /* Preview Content */,
+			);
+			path = "Lazy Grids";
+			sourceTree = "<group>";
+		};
+		BB4B6C7225CF04280025E204 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB4B6C7325CF04280025E204 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB4B6C6825CF04270025E204 /* Lazy Grids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4B6C7825CF04280025E204 /* Build configuration list for PBXNativeTarget "Lazy Grids" */;
+			buildPhases = (
+				BB4B6C6525CF04270025E204 /* Sources */,
+				BB4B6C6625CF04270025E204 /* Frameworks */,
+				BB4B6C6725CF04270025E204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lazy Grids";
+			productName = "Lazy Grids";
+			productReference = BB4B6C6925CF04270025E204 /* Lazy Grids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4B6C6125CF04270025E204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BB4B6C6825CF04270025E204 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BB4B6C6425CF04270025E204 /* Build configuration list for PBXProject "Lazy Grids" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB4B6C6025CF04270025E204;
+			productRefGroup = BB4B6C6A25CF04270025E204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB4B6C6825CF04270025E204 /* Lazy Grids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB4B6C6725CF04270025E204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4B6C7425CF04280025E204 /* Preview Assets.xcassets in Resources */,
+				BB4B6C7125CF04280025E204 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB4B6C6525CF04270025E204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4CAB1625CF7100009D908D /* HGrid.swift in Sources */,
+				BB4B6C6F25CF04270025E204 /* ContentView.swift in Sources */,
+				BB4B6C7D25CF05990025E204 /* Flexible.swift in Sources */,
+				BB4B6C8625CF0DD60025E204 /* EmbedInNavigation.swift in Sources */,
+				BB4B6C8325CF05B10025E204 /* Adaptive.swift in Sources */,
+				BB4B6C8025CF05A50025E204 /* Fixed.swift in Sources */,
+				BB4B6C6D25CF04270025E204 /* Lazy_GridsApp.swift in Sources */,
+				BBF4FDD225CF928F004E24BB /* Pinned.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB4B6C7625CF04280025E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB4B6C7725CF04280025E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB4B6C7925CF04280025E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lazy Grids/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lazy Grids/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.createchsol.Lazy-Grids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB4B6C7A25CF04280025E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lazy Grids/Preview Content\"";
+				DEVELOPMENT_TEAM = RKV4UP49S6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lazy Grids/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.createchsol.Lazy-Grids";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB4B6C6425CF04270025E204 /* Build configuration list for PBXProject "Lazy Grids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4B6C7625CF04280025E204 /* Debug */,
+				BB4B6C7725CF04280025E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4B6C7825CF04280025E204 /* Build configuration list for PBXNativeTarget "Lazy Grids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4B6C7925CF04280025E204 /* Debug */,
+				BB4B6C7A25CF04280025E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB4B6C6125CF04270025E204 /* Project object */;
+}
